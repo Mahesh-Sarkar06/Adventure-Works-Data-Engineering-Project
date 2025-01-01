@@ -1,0 +1,52 @@
+[
+    {
+        "git_rel_path": "Mahesh-Sarkar06/Adventure-Works-Data-Engineering-Project/refs/heads/main/Data/Calendar.csv",
+        "Dynamic_Sink_Path": "Calendar",
+        "Dynamic_File_Name": "calendar.csv"
+    },
+    {
+        "git_rel_path": "Mahesh-Sarkar06/Adventure-Works-Data-Engineering-Project/refs/heads/main/Data/Customers.csv",
+        "Dynamic_Sink_Path": "Customers",
+        "Dynamic_File_Name": "customers.csv"
+    },
+    {
+        "git_rel_path": "Mahesh-Sarkar06/Adventure-Works-Data-Engineering-Project/refs/heads/main/Data/Product_Categories.csv",
+        "Dynamic_Sink_Path": "Product_Categories",
+        "Dynamic_File_Name": "product_categories.csv"
+    },
+    {
+        "git_rel_path": "Mahesh-Sarkar06/Adventure-Works-Data-Engineering-Project/refs/heads/main/Data/Product_Subcategories.csv",
+        "Dynamic_Sink_Path": "Product_Subcategories",
+        "Dynamic_File_Name": "product_subcategories.csv"
+    },
+    {
+        "git_rel_path": "Mahesh-Sarkar06/Adventure-Works-Data-Engineering-Project/refs/heads/main/Data/Returns.csv",
+        "Dynamic_Sink_Path": "Returns",
+        "Dynamic_File_Name": "returns.csv"
+    },
+    {
+        "git_rel_path": "Mahesh-Sarkar06/Adventure-Works-Data-Engineering-Project/refs/heads/main/Data/Sales_2015.csv",
+        "Dynamic_Sink_Path": "Sales",
+        "Dynamic_File_Name": "sales_2015.csv"
+    },
+    {
+        "git_rel_path": "Mahesh-Sarkar06/Adventure-Works-Data-Engineering-Project/refs/heads/main/Data/Sales_2016.csv",
+        "Dynamic_Sink_Path": "Sales",
+        "Dynamic_File_Name": "sales_2016.csv"
+    },
+    {
+        "git_rel_path": "Mahesh-Sarkar06/Adventure-Works-Data-Engineering-Project/refs/heads/main/Data/Sales_2017.csv",
+        "Dynamic_Sink_Path": "Sales",
+        "Dynamic_File_Name": "sales_2017.csv"
+    },
+    {
+        "git_rel_path": "Mahesh-Sarkar06/Adventure-Works-Data-Engineering-Project/refs/heads/main/Data/Territories.csv",
+        "Dynamic_Sink_Path": "Territories",
+        "Dynamic_File_Name": "territories.csv"
+    },
+    {
+        "git_rel_path": "Mahesh-Sarkar06/Adventure-Works-Data-Engineering-Project/refs/heads/main/Data/Products.csv",
+        "Dynamic_Sink_Path": "Products",
+        "Dynamic_File_Name": "products.csv"
+    }
+]
