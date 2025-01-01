@@ -10,7 +10,7 @@ This project have 3 stages for its completion, I have named it as bronze, silver
 Microsoft Azure provide 3 different types of subscription account that an user can opt for.
 - <u>Free subscription account:</u> When creating account, Microsoft provide an option for free account where user get $200 for 30 days where he/she can user their services within that limit and no money will be charged to them.
 - <u>Pay as You Go:</u> While creating account, if you choose this option, then you will be charged as per the services you have used for how much time. And the final amount will be reflecting on you account's billing.
-- <u>Enterprise Agreement</u> This account is basically created by organisations where they handle the usage of the services as per the requirement.
+- <u>Enterprise Agreement:</u> This account is basically created by organisations where they handle the usage of the services as per the requirement.
 
 As for the beginner, suggested will be the Free Subscription account so that you will have the idea what you have used and how much they charge for the services. Later, you can upgrade the account to Pay as You Go subscription💰.
 

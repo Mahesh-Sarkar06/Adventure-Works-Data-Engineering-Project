@@ -10,7 +10,7 @@ SELECT * FROM OPENROWSET (
 CREATE VIEW GoldLayer.Customer
 AS
 SELECT * FROM OPENROWSET (
-    BULK('https://advworksdatalake.blob.core.windows.net/transformed-data-silver-level/AdvWorks_Customers/'),
+    BULK('https://advworksdatalake.dfs.core.windows.net/transformed-data-silver-level/AdvWorks_Customers/'),
     FORMAT = 'PARQUET'
 ) as query2
 
@@ -18,7 +18,7 @@ SELECT * FROM OPENROWSET (
 CREATE VIEW GoldLayer.ProductCategory
 AS
 SELECT * FROM OPENROWSET (
-    BULK('https://advworksdatalake.blob.core.windows.net/transformed-data-silver-level/AdvWorks_ProductCategories/'),
+    BULK('https://advworksdatalake.dfs.core.windows.net/transformed-data-silver-level/AdvWorks_ProductCategories/'),
     FORMAT = 'PARQUET'
 ) as query3
 
@@ -26,7 +26,7 @@ SELECT * FROM OPENROWSET (
 CREATE VIEW GoldLayer.Product
 AS
 SELECT * FROM OPENROWSET (
-    BULK('https://advworksdatalake.blob.core.windows.net/transformed-data-silver-level/AdvWorks_Products/'),
+    BULK('https://advworksdatalake.dfs.core.windows.net/transformed-data-silver-level/AdvWorks_Products/'),
     FORMAT = 'PARQUET'
 ) as query4
 
@@ -34,7 +34,7 @@ SELECT * FROM OPENROWSET (
 CREATE VIEW GoldLayer.ProdSub
 AS
 SELECT * FROM OPENROWSET (
-    BULK('https://advworksdatalake.blob.core.windows.net/transformed-data-silver-level/AdvWorks_ProductSubcategories/'),
+    BULK('https://advworksdatalake.dfs.core.windows.net/transformed-data-silver-level/AdvWorks_ProductSubcategories/'),
     FORMAT = 'PARQUET'
 ) as query5
 
@@ -42,7 +42,7 @@ SELECT * FROM OPENROWSET (
 CREATE VIEW GoldLayer.Returns
 AS
 SELECT * FROM OPENROWSET (
-    BULK('https://advworksdatalake.blob.core.windows.net/transformed-data-silver-level/AdvWorks_Returns/'),
+    BULK('https://advworksdatalake.dfs.core.windows.net/transformed-data-silver-level/AdvWorks_Returns/'),
     FORMAT = 'PARQUET'
 ) as query6
 
@@ -50,7 +50,7 @@ SELECT * FROM OPENROWSET (
 CREATE VIEW GoldLayer.Territory
 AS
 SELECT * FROM OPENROWSET (
-    BULK('https://advworksdatalake.blob.core.windows.net/transformed-data-silver-level/AdvWorks_Territory/'),
+    BULK('https://advworksdatalake.dfs.core.windows.net/transformed-data-silver-level/AdvWorks_Territory/'),
     FORMAT = 'PARQUET'
 ) as query7
 
@@ -58,6 +58,6 @@ SELECT * FROM OPENROWSET (
 CREATE VIEW GoldLayer.Sales
 AS
 SELECT * FROM OPENROWSET (
-    BULK('https://advworksdatalake.blob.core.windows.net/transformed-data-silver-level/AdvWorks_Sales/'),
+    BULK('https://advworksdatalake.dfs.core.windows.net/transformed-data-silver-level/AdvWorks_Sales/'),
     FORMAT = 'PARQUET'
 ) as query8
